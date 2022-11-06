@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://IsaacRodgz.github.io/IsaacRodgzb",
+  "homepage": "https://IsaacRodgz.github.io/isaacrodgzb",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.0",
