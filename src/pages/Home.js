@@ -11,7 +11,7 @@ function Home() {
             <h2>Hi, my name is Isaac</h2>
 
             <div className='prompt'>
-                <p>I'm a Machine Learning Developer</p>
+                <p>I'm a Machine Learning / Software Engineer</p>
                 <Link href="https://github.com/IsaacRodgz">
                   <GitHubIcon/>
                 </Link>
