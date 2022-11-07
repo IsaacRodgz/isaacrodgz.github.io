@@ -1,8 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import GitHubIcon from "@mui/icons-material/GitHub";
 
-function ProjectItem({ image, name, id, url }) {
+function ProjectItem({ image, name, id }) {
   const navigate = useNavigate();
   return (
     <div
@@ -13,7 +12,6 @@ function ProjectItem({ image, name, id, url }) {
     >
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
       <h1> {name} </h1>
-      <GitHubIcon href={url} />
     </div>
   );
 }
