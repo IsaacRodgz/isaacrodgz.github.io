@@ -25,16 +25,28 @@ function Experience() {
           </h4>
           <ul>
             <li>
-              Developed clustering system to help automate the training of chatbots, reducing maintenance cost.
+              Developed clustering microservice with Python and Scikit-Learn to help automate the training of chatbots,
+  reducing maintenance cost.
             </li>
             <li>
-              Developed NLP system to automatically generate a trained chatbot that is able to answer business questions from source documents, reducing the effort to create the chatbot to just a few clicks.
+              Developed NLP microservice in Python to automatically generate a trained chatbot that is able to answer business
+questions from source documents, reducing the effort to create the chatbot to just a few clicks.
             </li>
             <li>
-            Packaged and deployed several python systems into docker containers that can be scaled up/down in production environments.
+              Packaged and deployed several python microservices into docker containers that can be scaled up/down in
+production environments.
             </li>
             <li>
-              Created Torchserve API server that exposes PyTorch trained models used by the other developed systems, allowing easier maintenance.
+              Created Torchserve API server that exposes PyTorch trained models used by the other developed systems, allowing
+easier maintenance.
+            </li>
+            <li>
+              Developed Python scripts for prepossessing of large amounts of data for later use in finetuning of deep neural
+networks
+            </li>
+            <li>
+              Defined and created MLOps pipeline with MLflow server for experiment tracking and DVC for data versioning
+control.
             </li>
             <li>
               Fine-tuned and evaluated large language models for reading comprehension tasks.
