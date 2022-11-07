@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 function ProjectItem({ image, name, id, url }) {
   const navigate = useNavigate();
