@@ -9,12 +9,13 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
+  HashRouter,
 } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      <HashRouter>
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -23,7 +24,7 @@ function App() {
           <Route path="/experience" element={<Experience />} />
         </Routes>
         <Footer/>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
