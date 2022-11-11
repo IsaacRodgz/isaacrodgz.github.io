@@ -10,7 +10,7 @@ function Footer() {
         <GitHubIcon />
         <LinkedInIcon />
       </div>
-      <p> &copy; 2022 Isaac Rodríguez</p>
+      <p> &copy; 2022 Isaac Rodríguez. All Rights Reserved.</p>
     </div>
   );
 }

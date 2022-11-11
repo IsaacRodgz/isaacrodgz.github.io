@@ -8,10 +8,12 @@ function Home() {
   return (
     <div className='home'>
         <div className='about'>
-            <h2>Hi, my name is Isaac</h2>
+            <h2>Hi!</h2>
 
             <div className='prompt'>
-                <p>I'm a Machine Learning / Software Engineer</p>
+                <p>I'm <span id="name">Isaac Rodríguez</span>, a Machine Learning / Software Engineer.
+                I'm currently focused on building AI systems for conversational agents through the implementation of NLP technologies.
+                </p>
                 <Link href="https://github.com/IsaacRodgz">
                   <GitHubIcon/>
                 </Link>
@@ -20,33 +22,76 @@ function Home() {
                 </Link>
             </div>
         </div>
-        <div className="skills">
-        <h1> Skills</h1>
-        <ol className="list">
-          <li className="item">
-            <h2> Machine Learning Frameworks/libraries</h2>
-            <span>
-                PyTorch, PyTorch Lightning, Keras, Tensorflow, HuggingFace, Scikit Learn, Numpy,
-                Pandas, NLTK, Spacy, Jupyter Notebooks
-            </span>
-          </li>
-          <li className="item">
-            <h2> MLOps</h2>
-            <span>
-                TorchServe, MLFlow, ONNX, DVC, Weights & Biases
-            </span>
-          </li>
-          <li className="item">
-            <h2>Back-End</h2>
-            <span>
-                Flask, FastAPI, Docker, MySQL, MongoDB, AWS S3, AWS SQS, Appsmith
-            </span>
-          </li>
-          <li className="item">
-            <h2>Languages</h2>
-            <span>Python, Java, C, C++, JavaScript</span>
-          </li>
-        </ol>
+
+        <div className="background">
+          <h1> Background</h1>
+          <div className="background-text"><p>I'm currently a <span>ML Engineer with a focus on NLP at Botco.ai</span>. I work on the whole pipeline of several AI projects.
+            Some of my resposabilities include: Data collection / labeling / preprocessing, model finetuning and model deployment,
+            development of APIs and microservices and keeping up with state of the art research for implementation. I love being in the intersection
+            of Data Engineering, Data Science and Software Development where data is at the core. <br></br> <br></br>
+
+            I am a <span>Computer Engineer with a MSc in Compuer Science</span> where I learned all the foundations about machine learning and NLP.
+            During my master I had the opportunity to publish a <span>research paper</span> on multimodal AI at the <span>NAACL</span> 2021 Conference. <br></br> <br></br>
+
+            On my free time I love collaborating on open source communities and AI for good organizations. I'm currently
+            working with Omenda Mexico Chapter, where I've had the opportunity to work on a project related to identifying Fake News
+            on the web. I'm also an active collaborator in the Spanish HugginFace community called 'Somos NLP'.
+          </p></div>
+        </div>
+
+        <div className="skills-section">
+          <h1> Skills</h1>
+          <div className="skills">
+          <div className="skills-block">
+              <h2> Languages</h2>
+              <ol className="list">
+                <li className="item">Python</li>
+                <li className="item">Javascript</li>
+                <li className="item">SQL</li>
+                <li className="item">Scala</li>
+                <li className="item">Java</li>
+                <li className="item">C</li>
+                <li className="item">C++</li>
+              </ol>
+            </div>
+            <div className="skills-block">
+              <h2> Machine Learning</h2>
+              <ol className="list">
+                <li className="item">PyTorch</li>
+                <li className="item">HuggingFace</li>
+                <li className="item">Pandas</li>
+                <li className="item">Numpy</li>
+                <li className="item">Spark</li>
+                <li className="item">Scikit Learn</li>
+                <li className="item">NLTK</li>
+                <li className="item">Spacy</li>
+                <li className="item">Tensorflow</li>
+              </ol>
+            </div>
+            <div className="skills-block">
+              <h2> MLOps</h2>
+              <ol className="list">
+                <li className="item">Torchserve</li>
+                <li className="item">MLflow</li>
+                <li className="item">DVC</li>
+                <li className="item">ONNX</li>
+                <li className="item">W&B</li>
+              </ol>
+            </div>
+            <div className="skills-block">
+              <h2>Back End</h2>
+              <ol className="list">
+                <li className="item">FastAPI</li>
+                <li className="item">Flask</li>
+                <li className="item">Docker</li>
+                <li className="item">MySQL</li>
+                <li className="item">Mongo DB</li>
+                <li className="item">AWS S3</li>
+                <li className="item">AWS SQS</li>
+                <li className="item">Appsmith apps</li>
+              </ol>
+            </div>
+          </div>
       </div>
     </div>
   )

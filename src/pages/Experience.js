@@ -6,15 +6,16 @@ import {
 import "react-vertical-timeline-component/style.min.css"
 import SchoolIcon from "@mui/icons-material/School";
 import WorkIcon from "@mui/icons-material/Work";
+import "../styles/Experience.css"
 
 function Experience() {
   return (
     <div className='experience'>
-      <VerticalTimeline lineColor="#3e497a">
+      <VerticalTimeline lineColor="#007BFF">
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2021 - present"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          iconStyle={{ background: "#444452", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -56,7 +57,7 @@ control.
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2019 - 2021"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          iconStyle={{ background: "#444452", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -78,7 +79,7 @@ control.
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="February 2018 - July 2019"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          iconStyle={{ background: "#444452", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -105,7 +106,7 @@ control.
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2013 - 2017"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          iconStyle={{ background: "#444452", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
