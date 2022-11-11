@@ -26,16 +26,16 @@ function Home() {
         <div className="background">
           <h1> Background</h1>
           <div className="background-text"><p>I'm currently a <span>ML Engineer with a focus on NLP at Botco.ai</span>. I work on the whole pipeline of several AI projects.
-            Some of my resposabilities include: Data collection / labeling / preprocessing, model finetuning and model deployment,
+            Some of my responsibilities include: Data collection / labeling / preprocessing, model finetuning and model deployment,
             development of APIs and microservices and keeping up with state of the art research for implementation. I love being in the intersection
             of Data Engineering, Data Science and Software Development where data is at the core. <br></br> <br></br>
 
-            I am a <span>Computer Engineer with a MSc in Compuer Science</span> where I learned all the foundations about machine learning and NLP.
+            I am a <span>Computer Engineer with a MSc in Computer Science</span> where I learned all the foundations about machine learning and NLP.
             During my master I had the opportunity to publish a <span>research paper</span> on multimodal AI at the <span>NAACL</span> 2021 Conference. <br></br> <br></br>
 
             On my free time I love collaborating on open source communities and AI for good organizations. I'm currently
-            working with Omenda Mexico Chapter, where I've had the opportunity to work on a project related to identifying Fake News
-            on the web. I'm also an active collaborator in the Spanish HugginFace community called 'Somos NLP'.
+            working with <span>Omdena Mexico Chapter</span>, where I had the opportunity to work on a project related to identifying Fake News
+            on the web by developing a Google Chrome extension. I'm also an active collaborator in the Spanish HuggingFace community called <span>Somos NLP</span>.
           </p></div>
         </div>
 
