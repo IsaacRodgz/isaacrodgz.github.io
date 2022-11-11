@@ -70,6 +70,14 @@
     line-height: 1.8;
   }
 
+  a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
+  a:hover {
+    color: #007BFF;
+  }
+
   .skills-section {
     font-size: 40px;
     width: 72%;
