@@ -31,7 +31,7 @@ function Home() {
             of Data Engineering, Data Science and Software Development where data is at the core. <br></br> <br></br>
 
             I am a <span>Computer Engineer with a MSc in Computer Science</span> where I learned all the foundations about machine learning and NLP.
-            During my master I had the opportunity to publish a <a target="_blank" href="https://aclanthology.org/2021.maiworkshop-1.1/"><span>research paper</span></a> on multimodal AI at the <span>NAACL 2021 Conference</span> . <br></br> <br></br>
+            During my master I had the opportunity to publish a <a rel="noreferrer" target="_blank" href="https://aclanthology.org/2021.maiworkshop-1.1/"><span>research paper</span></a> on multimodal AI at the <span>NAACL 2021 Conference</span> . <br></br> <br></br>
 
             On my free time I love collaborating on open source communities and AI for good organizations. I'm currently
             working with <span>Omdena Mexico Chapter</span>, where I've had the opportunity to work on a project related to identifying Fake News
