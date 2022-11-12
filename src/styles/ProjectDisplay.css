@@ -5,24 +5,41 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #444452;
 }
 
 .project h1 {
-  margin-top: 50px;
-  color: #3e497a;
+  margin-top: 150px;
   font-size: 35px;
 }
 .project img {
-  width: 400px;
+  width: 20%;
   border-radius: 10px;
 }
 
-.project p {
-  font-size: 40px;
-  color: #3e497a;
+.project .description {
+  width: 40%;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.project h2 {
+  font-size: 20px;
+  color: #007BFF;
+}
+
+.skills {
+  margin-top: 0px;
+  font-size: 20px;
 }
 
 .project svg {
   font-size: 60px;
-  color: #3e497a;
+}
+
+.project svg:hover {
+  font-size: 60px;
+  color: #007BFF;
 }
