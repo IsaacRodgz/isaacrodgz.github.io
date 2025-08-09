@@ -17,10 +17,20 @@ function Home() {
             conversational agents through the implementation of NLP
             technologies.
           </p>
-          <Link href="https://github.com/IsaacRodgz">
+          <Link
+            href="https://github.com/IsaacRodgz"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
             <GitHubIcon />
           </Link>
-          <Link href="https://www.linkedin.com/in/isaacrodgz/">
+          <Link
+            href="https://www.linkedin.com/in/isaacrodgz/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
             <LinkedInIcon />
           </Link>
         </div>
