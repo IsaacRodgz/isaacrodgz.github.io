@@ -8,6 +8,16 @@ import '../styles/ProjectDisplay.css';
 function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList.find((p) => p.id.toString() === id);
+
+  if (!project) {
+    return (
+      <div className="project">
+        <h1>Project not found</h1>
+      </div>
+    );
+  }
+
+
   return (
     <div className="project">
       <h1> {project.name}</h1>
