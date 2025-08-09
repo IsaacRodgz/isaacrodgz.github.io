@@ -1,17 +1,17 @@
 .experience {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    color: #444452;
-    font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #444452;
+  font-size: 14px;
 }
 
 .vertical-timeline-element--work li {
-    padding: 8px;
+  padding: 8px;
 }
 
 .vertical-timeline-element-title {
-    color: #007BFF;
+  color: #007bff;
 }
 
 .vertical-timeline-element-subtitle {
-    color: #007BFF;
+  color: #007bff;
 }
