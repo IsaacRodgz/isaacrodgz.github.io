@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.74a183ed.css",
-    "main.js": "/static/js/main.be0536ef.js",
+    "main.css": "/static/css/main.8145afeb.css",
+    "main.js": "/static/js/main.ae0fc7b5.js",
     "static/media/mult-gmu-v3.png": "/static/media/mult-gmu-v3.1b9eaaa9115a073a63ac.png",
     "static/media/web-extension.png": "/static/media/web-extension.c0e25a64f7517316b8ce.png",
     "index.html": "/index.html",
-    "main.74a183ed.css.map": "/static/css/main.74a183ed.css.map",
-    "main.be0536ef.js.map": "/static/js/main.be0536ef.js.map"
+    "main.8145afeb.css.map": "/static/css/main.8145afeb.css.map",
+    "main.ae0fc7b5.js.map": "/static/js/main.ae0fc7b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.74a183ed.css",
-    "static/js/main.be0536ef.js"
+    "static/css/main.8145afeb.css",
+    "static/js/main.ae0fc7b5.js"
   ]
 }
