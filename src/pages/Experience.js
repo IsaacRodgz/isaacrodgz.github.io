@@ -37,13 +37,17 @@ function Experience() {
               Agents.
             </li>
             <li>
-              Created Langchain workflow for legal to extract specific
-              information on any legal contract, like governing law and parties
+              Created Langchain workflow to extract specific
+              information on any legal contract, including governing law and parties
               involved.
             </li>
             <li>
               Created AI APIs with FastAPI to allow easy integration of AI
               systems with product backend.
+            </li>
+            <li>
+              Developed evaluation pipeline to benchmark Agentic workflows
+              performance using Langsmith.
             </li>
           </ul>
         </VerticalTimelineElement>
