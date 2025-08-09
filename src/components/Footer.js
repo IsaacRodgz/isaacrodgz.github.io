@@ -7,8 +7,20 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <GitHubIcon />
-        <LinkedInIcon />
+        <a
+          href="https://github.com/IsaacRodgz"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <GitHubIcon />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/isaacrodgz/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <LinkedInIcon />
+        </a>
       </div>
       <p> &copy; 2022 Isaac Rodríguez. All Rights Reserved.</p>
     </div>
