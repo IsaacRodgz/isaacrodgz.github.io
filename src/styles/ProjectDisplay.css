@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #444452;
 }
 
@@ -27,7 +27,7 @@
 
 .project h2 {
   font-size: 20px;
-  color: #007BFF;
+  color: #007bff;
 }
 
 .skills {
@@ -41,5 +41,5 @@
 
 .project svg:hover {
   font-size: 60px;
-  color: #007BFF;
+  color: #007bff;
 }

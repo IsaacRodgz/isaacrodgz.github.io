@@ -1,101 +1,101 @@
 .navbar {
+  width: 100%;
+  height: 100px;
+  background: #ffffff;
+}
+
+.links {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #8a8a91;
+}
+
+.navbar a {
+  color: #444452;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 25px;
+}
+
+.toggleButton {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.toggleButton svg {
+  font-size: 50px;
+}
+.toggleButton button {
+  margin-right: 20px;
+  background-color: transparent;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+}
+
+#open {
+  height: 100vh;
+}
+
+#open .links {
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 100px;
+}
+
+#open a {
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar {
     width: 100%;
-    height: 100px;
-    background: #FFFFFF;
   }
-  
   .links {
-    width: 90%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    color: #8A8A91;
+    width: 100%;
   }
-  
-  .navbar a {
-    color: #444452;
-    text-decoration: none;
-    margin: 20px;
-    font-size: 25px;
-  }
-  
+}
+
+@media only screen and (max-width: 600px) {
   .toggleButton {
-    width: 100%;
-    height: 100px;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
   }
-  
-  .toggleButton svg {
-    font-size: 50px;
+  #close a {
+    display: none;
   }
-  .toggleButton button {
-    margin-right: 20px;
-    background-color: transparent;
-    border: none;
-    color: #007BFF;
-    cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+  .toggleButton {
+    display: none;
   }
-  
+
+  .hiddenLinks {
+    display: none;
+  }
+
   #open {
-    height: 100vh;
+    height: 100px;
   }
-  
+
   #open .links {
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-top: 100px;
+    flex-direction: row;
   }
-  
-  #open a {
-    width: 100%;
-    text-align: center;
-  }
-  
-  @media only screen and (max-width: 900px) {
-    .navbar {
-      width: 100%;
-    }
-    .links {
-      width: 100%;
-    }
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .toggleButton {
-      display: flex;
-    }
-    #close a {
-      display: none;
-    }
-  }
-  
-  @media only screen and (min-width: 600px) {
-    .toggleButton {
-      display: none;
-    }
-  
-    .hiddenLinks {
-      display: none;
-    }
-  
-    #open {
-      height: 100px;
-    }
-  
-    #open .links {
-      flex-direction: row;
-    }
-  }
+}
 
 .link {
   display: block;
   position: relative;
   padding: 0.2em 0;
 }
-  
+
 /* Fade in */
 .link::after {
   content: '';
@@ -104,9 +104,11 @@
   left: 0;
   width: 100%;
   height: 0.1em;
-  background-color: #007BFF;
+  background-color: #007bff;
   opacity: 0;
-  transition: opacity 300ms, transform 300ms;
+  transition:
+    opacity 300ms,
+    transform 300ms;
 }
 
 .link:hover::after,
@@ -122,6 +124,6 @@
 }
 
 .link:hover::after,
-.link:focus::after{
+.link:focus::after {
   transform: scale(1);
 }

@@ -1,28 +1,28 @@
 .footer {
-    width: 100%;
-    height: 200px;
-    background: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 10px;
-    margin-top: 200px;
-  }
-  
-  .socialMedia svg {
-    color: #444452;
-    margin: 20px;
+  width: 100%;
+  height: 200px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+  margin-top: 200px;
+}
+
+.socialMedia svg {
+  color: #444452;
+  margin: 20px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.footer p {
+  color: #444452;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer svg {
     font-size: 50px;
-    cursor: pointer;
   }
-  
-  .footer p {
-    color: #444452;
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .footer svg {
-      font-size: 50px;
-    }
-  }
+}
