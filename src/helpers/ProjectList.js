@@ -3,6 +3,7 @@ import Proj2 from '../assets/web-extension.png';
 
 export const ProjectList = [
   {
+    id: 1,
     name: 'Multimodal Transformer with GMU Fusion',
     description: `This project was the result of my master thesis. I proposed a novel architecture based on the Transformer architecture.
     This model is capable of fusing information from multiple modalities, including: text, images, video, audio and tabular data. With this model
@@ -13,10 +14,11 @@ export const ProjectList = [
     url: 'https://github.com/IsaacRodgz/multimodal-transformers-movies',
   },
   {
+    id: 2,
     name: 'Fake News Validator',
     description: `In this project I developed a Google Chrome extension both for the frontend and the backend side. This plugin was the result
     of a project in Omdena Mexico challenge organization where the objective was to create a product that could guide users to decide if a
-    news article is fake or not. The extension consists of the user interface (the chrome extension itself), a backend API written with FastAPI and deveral
+    news article is fake or not. The extension consists of the user interface (the chrome extension itself), a backend API written with FastAPI and several
     Document DBs used by the backend API.`,
     image: Proj2,
     skills: 'Python, FastAPI, Javascript, HTML, CSS',
