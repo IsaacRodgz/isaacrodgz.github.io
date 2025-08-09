@@ -7,7 +7,7 @@ import '../styles/ProjectDisplay.css';
 
 function ProjectDisplay() {
   const { id } = useParams();
-  const project = ProjectList[id];
+  const project = ProjectList.find((p) => p.id.toString() === id);
 
   if (!project) {
     return (
@@ -16,6 +16,7 @@ function ProjectDisplay() {
       </div>
     );
   }
+
 
   return (
     <div className="project">
