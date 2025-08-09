@@ -14,7 +14,42 @@ function Experience() {
       <VerticalTimeline lineColor="#007BFF">
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2021 - present"
+          date="2023 - present"
+          iconStyle={{ background: "#444452", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            ML Engineer - Definely
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            London, UK (Remote from Mexico)
+          </h4>
+          <ul>
+            <li>
+              Developing LLM-based and agentic solutions for legal tech.
+            </li>
+            <li>
+              Integrated ElasticSearch semantic search (RAG) for answering legal
+              questions.
+            </li>
+            <li>
+              Integrated Neo4j for legal document change analysis with LLM
+              Agents.
+            </li>
+            <li>
+              Created Langchain workflow for legal to extract specific
+              information on any legal contract, like governing law and parties
+              involved.
+            </li>
+            <li>
+              Created AI APIs with FastAPI to allow easy integration of AI
+              systems with product backend.
+            </li>
+          </ul>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2021 - 2023"
           iconStyle={{ background: "#444452", color: "#fff" }}
           icon={<WorkIcon />}
         >
