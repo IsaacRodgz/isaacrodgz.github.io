@@ -32,7 +32,7 @@ function Navbar() {
           {' '}
           Experience{' '}
         </Link>
-        <Link className="link" to="/projects ">
+        <Link className="link" to="/projects">
           {' '}
           Projects{' '}
         </Link>
