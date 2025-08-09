@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.74a183ed.css",
-    "main.js": "/static/js/main.3da597b3.js",
+    "main.js": "/static/js/main.be0536ef.js",
     "static/media/mult-gmu-v3.png": "/static/media/mult-gmu-v3.1b9eaaa9115a073a63ac.png",
     "static/media/web-extension.png": "/static/media/web-extension.c0e25a64f7517316b8ce.png",
     "index.html": "/index.html",
     "main.74a183ed.css.map": "/static/css/main.74a183ed.css.map",
-    "main.3da597b3.js.map": "/static/js/main.3da597b3.js.map"
+    "main.be0536ef.js.map": "/static/js/main.be0536ef.js.map"
   },
   "entrypoints": [
     "static/css/main.74a183ed.css",
-    "static/js/main.3da597b3.js"
+    "static/js/main.be0536ef.js"
   ]
 }
