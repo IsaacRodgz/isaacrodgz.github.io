@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import { MemoryRouter, Routes, Route } from 'react-router-dom';
 import ProjectDisplay from '../pages/ProjectDisplay';
 
-test('renders fallback message when project is not found', () => {
+test('renders fallback message when project id is invalid', () => {
   render(
     <MemoryRouter initialEntries={['/project/999']}>
       <Routes>
