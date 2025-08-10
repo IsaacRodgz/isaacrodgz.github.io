@@ -13,9 +13,10 @@ function Home() {
         <div className="prompt">
           <p>
             I'm <span id="name">Isaac Rodríguez</span>, a Machine Learning /
-            Software Engineer. I'm currently focused on building AI systems for
-            conversational agents through the implementation of NLP
-            technologies.
+            Software Engineer. I'm currently focused on building Agentic systems
+            leveraging LLMs, agentic frameworks like Langgraph and all the
+            Context Engineering (DBs, APIs, MCP servers) needed for the Agents
+            to achieve their goal.
           </p>
           <Link
             href="https://github.com/IsaacRodgz"
@@ -41,13 +42,13 @@ function Home() {
         <div className="background-text">
           <p>
             I'm currently a{' '}
-            <span>ML Engineer with a focus on NLP at Botco.ai</span>. I work on
+            <span>ML Engineer with a focus on NLP at Definely</span>. I work on
             the whole pipeline of several AI projects. Some of my
             responsibilities include: Data collection / labeling /
-            preprocessing, model finetuning and model deployment, development of
-            APIs and microservices and keeping up with state of the art research
-            for implementation. I love being in the intersection of Data
-            Engineering, Data Science and Software Development where data is at
+            context engineering, development of APIs and microservices and
+            keeping up with state of the art research for implementation.
+            I love being in the intersection of Data
+            Engineering, Machine Learning and Software Development where data is at
             the core. <br></br> <br></br>I am a{' '}
             <span>Computer Engineer with a MSc in Computer Science</span> where
             I learned all the foundations about machine learning and NLP. During
